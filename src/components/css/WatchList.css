@@ -1,0 +1,95 @@
+
+.containerWatchList{
+
+   position: fixed;
+   z-index: 50;
+   bottom: 0em;
+   left: 2em;
+
+
+}
+
+.containerWatchList button{
+    padding: 0.54em 4em;
+    font-weight: 400;
+    color: darkred;
+    font-family: monospace;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: italic;
+    box-shadow: 3px 6px #c6c2c2;
+    background-color: rgb(254, 254, 254);
+}
+
+.WatchList{
+    width: 20em;
+    padding: 2em;
+}
+
+.WatchList input{
+    border: none;
+    width: 100%;
+    padding: 3px;
+    outline: none;
+}
+
+.WatchList button{
+    background: #fff;
+    border: none;
+    font-size: 1.7em;
+    font-weight: 600;
+    font-family: monospace;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+}
+
+.formTicker{
+    display: flex;
+    padding: 2em 0;
+}
+.heading p{
+ 
+    color: #000;
+    
+}
+
+.WatchList input::placeholder{
+    margin-left: 5em;
+}
+
+.wacthListminicontainer{
+    height: 20em;
+    overflow: hidden;
+    overflow-y:auto;
+    font-weight: 500;
+}
+.wacthListminicontainer > div:first-child {
+    padding-left: 10px;
+  }
+
+@media only screen and (max-width: 1000px){
+
+    
+    
+.WatchList{
+   
+    width: 13em;
+    padding: 2em;
+}
+
+.wacthListminicontainer {
+    height: 25em;
+    overflow: hidden;
+    overflow-y: auto;
+    font-weight: 700;
+    font-size: 0.75em;
+}
+
+}

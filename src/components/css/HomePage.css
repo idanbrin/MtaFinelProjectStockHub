@@ -1,0 +1,28 @@
+.HomePageContainer{
+
+    display: flex;
+    padding-top: 20px;
+    background-color: #E4E6EB;
+    
+}
+
+.HomePageContainer>div{
+
+    margin-top: 80px;
+}
+
+.HomePageContainer .HomePageContainer-LeftSideHomePageContainer{
+    flex: 1;
+    border-right: 1px solid #a7a5a5;
+    
+}
+.HomePageContainer .HomePageContainer-FeedSideHomePageContainer{
+    flex-grow: 2;
+    
+}
+.HomePageContainer .HomePageContainer-RightSideHomePageContainer{
+    flex:1;
+    border-left: 1px solid #a7a5a5;
+}
+        
+    

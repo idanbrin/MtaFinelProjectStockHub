@@ -1,0 +1,86 @@
+.NavBar-container{
+
+    display:flex;
+    height: 10vh;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    
+}
+
+.NavBar-container>div{
+
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.NavBar-container>div i{
+
+  margin: 0 20px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: larger;
+
+}
+
+.NavBar-container .NavBar-LeftSide{
+    align-items: center;
+    background-color: #ffffff;
+    color: #606060;
+    padding: 5px;
+
+}
+
+.NavBar-container .NavBar-LeftSide i{
+
+    font-weight: 600;
+    font-size: larger;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #606060;
+    padding: 6.7px 6.7px;
+}
+.NavBar-container .NavBar-LeftSide .nav-btn{
+
+    align-items: center;
+    border-radius: 50%;
+    width: 2.5vw;
+    height: 6vh;
+    margin: 2px;
+    border: none;
+   
+}
+
+
+.NavBar-container .NavBar-MidleSide{
+
+    flex-grow: 2;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #606060;
+
+}
+
+.NavBar-container .NavBar-MidleSide  i{
+
+  margin: 80px;
+ 
+ }
+
+.NavBar-container .NavBar-RightSide{
+
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #ffffff;
+}
+
+.NavBar-container .NavBar-RightSide i{
+    
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 6.7px 6.7px;
+    color: #606060;
+
+}

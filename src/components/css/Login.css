@@ -1,0 +1,120 @@
+.container-login-page{
+
+    display: flex;
+    height: 100vh;
+    padding: 0 100px;
+}
+
+.container-login-page .login-animation{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    
+
+}
+
+.container-login-page .login-animation img{
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.container-login-page .login-form-container{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+
+}
+.container-login-page .login-form-container .login-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px 50px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    
+
+
+}
+.container-login-page .login-form-container .login-form-input{
+    background-color: rgb(240, 246, 249);
+    padding: 0px 35px;
+    border-radius: 8px;
+}
+.container-login-page .login-form-container *{
+    margin-bottom: 15px;
+
+}
+
+.container-login-page .login-form-container input{
+    border:0;
+    background-color: rgb(240, 246, 249);
+   font-weight: 700;
+
+} 
+.container-login-page .login-form-container input:focus {
+    /* Remove default styles when input is focused */
+    outline: none; /* Remove the default focus outline */
+    border-color: #007bff; /* Add custom focus border color */
+  }
+
+.container-login-page .login-form-container .login-form .Login-btn button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-login-page .login-form-container .login-form .forgot-btn button{
+    display: block;
+    width: 100%;
+    color: rgb(11, 10, 10);
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: "Briem Hand", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.container-login-page .login-form-container .login-form .Login-btn button:hover {
+    background-color: #357ae8;
+  }
+.container-login-page .login-form-container .Sign-up{
+    border-top: 1.35px solid rgb(79, 78, 78);
+    padding-top: 20px;
+    font-weight: 600;
+    font-family: "Briem Hand", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.container-login-page .login-form-container .Sign-up button{
+    display: block;
+    width: 100%;
+    color: #357ae8;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: "Briem Hand", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+
+}
+      
