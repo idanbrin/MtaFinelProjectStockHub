@@ -1,14 +1,17 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 import "./css/Login.css"
 
 export const Login = () => {
 
     const [userName,setUserName]=useState('');
     const [userPassword,setuserPassword]=useState('');
+    const navigate = useNavigate();
 
     function GetUserFromDataBase(){
         console.log(userName);
         console.log(userPassword);
+        navigate('/HomePAge');
     }
 
   return (
